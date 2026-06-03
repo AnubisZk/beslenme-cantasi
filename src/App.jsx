@@ -1467,10 +1467,7 @@ const App = () => {
           <div className="flex-1">
             <h4 className="font-bold text-slate-800 text-lg leading-tight">Beslenme Çantam</h4>
             <p className="text-xs text-slate-500 font-medium mt-1 mb-3">Sağlıklı Besinler Bulmacası</p>
-            <a href="https://wordwall.net/tr/resource/109295540" target="_blank" rel="noopener noreferrer"
-              className="w-full bg-blue-500 text-white py-2 px-4 rounded-xl font-bold text-sm flex items-center justify-center gap-2 active:scale-95 transition-transform">
-              Hemen Oyna <ExternalLink size={14} />
-            </a>
+            <button onClick={() => { setCurrentScreen('pack'); setShowResult(false); }} className="w-full bg-blue-500 text-white py-2 px-4 rounded-xl font-bold text-sm flex items-center justify-center gap-2 active:scale-95 transition-transform">Hemen Oyna</button>
           </div>
         </div>
         <div className="bg-white p-6 rounded-[32px] shadow-sm border border-slate-100 flex items-center gap-4 hover:shadow-md transition-shadow">
